@@ -4,15 +4,6 @@
 npm run serve
 ```
 
-## 准备
-
-本项目使用了 `element-plus` 和 `echarts` 两个组件库。
-
-安装：
-
-```
-npm install element-plus
-npm install echarts
 
 // 如果没安装路由 router
 npm install vue-router
@@ -28,11 +19,7 @@ npm install vue-router
    4. synthesis
    5. center
 
-### 登陆页面 login
 
-使用 ApiPost7 软件进行调试，下载：https://www.apipost.cn/。在该软件中创建一个接口，通过 login.vue 中 axios 功能发送请求，获取响应后即可跳转到 home 页面。
-
-ApiPost7介绍：简单来说，就是让你可以向指定url发送一个请求，然后它返回给你响应数据，这个数据可以在软件中进行设置。
 
 ### 主页 home
 
