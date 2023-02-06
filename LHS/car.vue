@@ -145,7 +145,7 @@ export default defineComponent({
         }
       });
       // console.log(res);
-      tableData.value = res;
+      // tableData.value = res;
       todayIn.value = 0;
       todayOut.value = 0;
       todaymoney.value = 0;
