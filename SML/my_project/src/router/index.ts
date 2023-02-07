@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TempSs from '../components/TempSs.vue'
+import MainPage from '../views/MainPage.vue'
 import HomeView from '../views/HomeView.vue'
 import StudyResources from '../components/StudyResources.vue'
 import UserStore from '../components/UserStore.vue'
-import PersonsRecord from '../components/PersonsRecord.vue'
-import CarsRecord from '../components/CarsRecord.vue'
+import VisitorsRecord from '../views/VisitorsRecord.vue'
+import VehiclesRecord from '../views/VehiclesRecord.vue'
 import AiCars from '../components/AiCars.vue'
 import WeatherReport from '../components/WeatherReport.vue'
 
@@ -20,19 +20,19 @@ const routes = [
     component: WeatherReport
   },
   {
-    path: '/temp',
-    name: 'TempSs',
-    component: TempSs,
+    path: '/main',
+    name: 'MainPage',
+    component: MainPage,
     children: [
       {
-        path: '/persons',
-        name: 'PersonsRecord',
-        component: PersonsRecord
+        path: '/visitors',
+        name: 'VisitorsRecord',
+        component: VisitorsRecord
       },
       {
-        path: '/cars',
-        name: 'CarsRecord',
-        component: CarsRecord
+        path: '/vehicles',
+        name: 'vehicles',
+        component: VehiclesRecord
       },
       {
         path: '/users',

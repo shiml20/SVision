@@ -58,7 +58,7 @@ function getDate(){
 				var Tools=document.getElementById("Main")
 				var da=year+" 年 "+month+" 月 "+days+" 日 "+week[day]+" "+hour+" : "+minute+" :"+second
 				datetime.value=da
-                console.log(da)
+                // console.log(da)
             }
 getDate()
 
