@@ -1,0 +1,20 @@
+{
+    "users":{
+        "realname":"王管理",
+        "username":"admin",
+        "type":"超级管理员",
+        "department":"总部",
+        "isused":true,
+        "createtime":{
+            "year":2022,
+            "month":1,
+            "day":1
+        },
+        "isfaceused":true
+    },
+    "信息":{
+        "报警信息":"",
+        "园区信息":"",
+        "安保职责":""
+    }
+}
