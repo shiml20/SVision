@@ -1,3 +1,20 @@
+/**解释说明：营区态势
+*basenumber：人车底数
+    *zone1：区域1
+    *peoplenum：人员数量
+    *vehiclenum：车辆数量
+*storage：仓鼠情况
+    *factory1：厂房1
+    *in：今日进仓量
+    *out：今日出仓量
+    *total：仓储总量
+    *level：货物安防等级（用数字衡量）
+*vistors：访客管理
+    *process/product/commerce/store/deliver/serve：加工区/厂区/贸易区/仓储区/物流区/服务中心
+    *total：总数
+    *inside：在营区
+*/
+
 {
     "basenumber":{
         "zone1":{
