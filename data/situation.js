@@ -3,7 +3,7 @@
     *zone1：区域1
     *peoplenum：人员数量
     *vehiclenum：车辆数量
-*storage：仓鼠情况
+*storage：仓储情况
     *factory1：厂房1
     *in：今日进仓量
     *out：今日出仓量
