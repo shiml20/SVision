@@ -1,0 +1,56 @@
+###根据search的字段获取符合条件的所有用户
+GET http://127.0.0.1:5000/vehicles/
+Content-Type: application/json
+
+{
+  "time_begin": "2023-2-8 15:03:00",
+  "time_end": "2023-2-9 15:03:00",
+  "type": "",
+  "isin": 1,
+  "license": "",
+  "page_num": 1,
+  "per_page": 10
+}
+
+###批量删除用户信息
+DELETE http://127.0.0.1:5000/vehicles/
+Content-Type: application/json
+
+{
+  "list_to_del": [1,2]
+}
+
+
+###新增一个用户信息
+POST http://127.0.0.1:5000/vehicles/
+Content-Type: application/json
+
+{
+  "license" : "1",
+  "type" : "1",
+  "whyin": "1",
+  "isin": true,
+  "intime": "2023-2-8 15:03:01",
+  "outtime": "2023-2-9 15:03:01",
+  "ownername": "1",
+  "phone": "1",
+  "pay": 30
+}
+
+###删除一个用户信息
+DELETE http://127.0.0.1:5000/vehicles/2
+
+###编辑一个用户
+PUT http://127.0.0.1:5000/vehicles/1
+Content-Type: application/json
+
+{
+  "realname" : "realname1",
+  "username" : "username1",
+  "password": "password1",
+  "type": "a",
+  "department": "2",
+  "isused": true,
+  "createtime": "2023-2-6 15:03:01",
+  "isfaceused": true
+}

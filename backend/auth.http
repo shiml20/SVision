@@ -1,0 +1,11 @@
+POST http://127.0.0.1:5000/auth/login
+Content-Type: application/json
+
+{
+  "username": "username1",
+  "password": "password1"
+}
+
+###
+POST http://127.0.0.1:5000/auth/logout
+q
