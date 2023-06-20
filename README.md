@@ -7,12 +7,12 @@
 
 🙆 Team Members: 
 
-Mingleishi(史明磊), Department of Automation of Tsinghua University.
+Mingleishi (史明磊), Department of Automation of Tsinghua University.
 
-Shuo, Yang(杨朔), Department of Automation of Tsinghua University.
+Shuo, Yang (杨朔), Department of Automation of Tsinghua University.
 
-Huaishuo, Liu(刘淮硕), Department of Automation of Tsinghua University.
+Huaishuo, Liu (刘淮硕), Department of Automation of Tsinghua University.
 
-Qingdian, Luo(罗庆典), Department of Automation of Tsinghua University.
+Qingdian, Luo (罗庆典), Department of Automation of Tsinghua University.
 
-Yinghong, Xiao(肖一翃), Department of Automation of Tsinghua University.
+Yinghong, Xiao (肖一翃), Department of Automation of Tsinghua University.
